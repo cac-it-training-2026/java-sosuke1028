@@ -18,10 +18,19 @@ public class Question06_4 {
          String str = reader.readLine();
  		int sellFlag = Integer.parseInt(str);
  		
- 		do ammountBooks++;
- 		System.out.println("？");
+ 		
+ 		System.out.println("本を売却します。");
 		System.out.println("はい：0、いいえ：１");
-         
+        
+		do {
+			ammountBooks++;
+			
+			System.out.println("本を売却する数を一つ増やしますか？");
+			System.out.println("はい：0、いいえ：１");
+			
+			
+		}
+		
          while(sellFlag==0) {
         	 ammountBooks++;
         	 
