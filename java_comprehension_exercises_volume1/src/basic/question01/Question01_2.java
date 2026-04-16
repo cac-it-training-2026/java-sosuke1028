@@ -16,6 +16,7 @@ public class Question01_2 {
 		System.out.println("リンゴの値段は" + appleprice + "円です。");
 		System.out.println("バナナの値段は" + bananaprice + "円です。");
 		System.out.println("この筆記用具は" + writinhgUtensils + "です。");
+		//sssss
 
 	}
 
